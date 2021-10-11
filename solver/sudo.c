@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define Taille=10; //9 (chiffres) +1
-#define Taille_texte=111;//9x9 (chiffres) + 2x 9 (2 espaces par ligne) + 9+2 (retour a la ligne)  +1 (null)
+extern int Taille=10; //9 (chiffres) +1
+extern int Taille_texte=111;//9x9 (chiffres) + 2x 9 (2 espaces par ligne) + 9+2 (retour a la ligne)  +1 (null)
 struct sudoku
 {
 	int grille[Taille][Taille];//la grille de sudoku

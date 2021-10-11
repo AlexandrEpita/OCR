@@ -1,6 +1,8 @@
 
 #ifndef NAME_OF_THE_HEADER_FILE
 #define NAME_OF_THE_HEADER_FILE
+extern int Taille;
+extern int Taille_texte;
 struct sudoku { 
     int grille[][];//matrice de notre sudoku
     char s[];//contenu du tx

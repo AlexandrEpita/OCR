@@ -5,6 +5,10 @@
 
 int main(int argv ,*argv[])
 {
+	if(argc !=2) {
+		printError( argv[0], "number of args invalid" ); 
+		return EXIT_FAILURE; 
+ 	}
 	char *filename = NULL;
 	filename=argv[0];
 	size_t i;
